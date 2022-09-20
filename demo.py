@@ -49,7 +49,7 @@ def write_video_with_audio(audio_path, output_path, prefix='pred_'):
 if __name__ == '__main__': 
     parser = argparse.ArgumentParser()
     parser.add_argument('--id', default='May', help="person name, e.g. Obama1, Obama2, May, Nadella, McStay")
-    parser.add_argument('--driving_audio', default='./data/input/00083.wav', help="path to driving audio")
+    parser.add_argument('--driving_audio', default='./data/Input/00083.wav', help="path to driving audio")
     parser.add_argument('--save_intermediates', default=0, help="whether to save intermediate results")
     parser.add_argument('--device', type=str, default='cpu', help='use cuda for GPU or use cpu for CPU')
     
@@ -294,13 +294,3 @@ if __name__ == '__main__':
     
     print('Finish!')
     
-
-
-    
-    
-
-
-
-   
-
-
