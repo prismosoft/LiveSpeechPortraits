@@ -9,3 +9,5 @@ numpy
 beautifulsoup4
 scikit-image
 ffmpeg
+numba==0.48
+pyyaml==5.4.1
