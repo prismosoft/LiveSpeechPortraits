@@ -11,3 +11,4 @@ scikit-image
 ffmpeg
 numba==0.48
 pyyaml==5.4.1
+face-alignment
